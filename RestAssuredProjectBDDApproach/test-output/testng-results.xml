@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3084" started-at="2020-07-23T21:12:50Z" finished-at="2020-07-23T21:12:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3084" started-at="2020-07-23T21:12:50Z" finished-at="2020-07-23T21:12:53Z">
+      <class name="serialization_DeSerialization.StudentAPIWithSerialization">
+        <test-method status="PASS" signature="getStudentRecordInformation()[pri:2, instance:serialization_DeSerialization.StudentAPIWithSerialization@47c62251]" name="getStudentRecordInformation" duration-ms="3033" started-at="2020-07-23T21:12:50Z" finished-at="2020-07-23T21:12:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStudentRecordInformation -->
+      </class> <!-- serialization_DeSerialization.StudentAPIWithSerialization -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

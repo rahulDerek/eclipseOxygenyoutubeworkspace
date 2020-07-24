@@ -1,0 +1,16 @@
+package serialization_DeSerialization;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class StudentAPIWithSerialization {
+	
+	
+	//create the courses list
+	
+	List<String> courseList = new ArrayList<String>();
+	
+	courseList.add("Java");
+	courseList.add("Python");
+
+}

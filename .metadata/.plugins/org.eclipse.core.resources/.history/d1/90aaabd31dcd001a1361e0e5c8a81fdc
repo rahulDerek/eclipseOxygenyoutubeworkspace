@@ -1,0 +1,25 @@
+package serialization_DeSerialization;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.testng.annotations.Test;
+
+public class StudentAPIWithSerialization {
+	
+	
+	//create the courses list
+	@Test
+	public void createNewStudentSerialization()
+	{
+	
+	List<String> courseList = new ArrayList<String>();
+	
+	
+	
+	
+	
+	
+	
+}
+}

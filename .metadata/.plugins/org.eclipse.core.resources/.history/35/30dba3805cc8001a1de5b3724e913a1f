@@ -1,0 +1,24 @@
+package restAssuredTestsPractice;
+import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+import groovy.util.logging.Log;
+import io.restassured.RestAssured;
+import io.restassured.response.Response;
+import static io.restassured.RestAssured.*;
+import static org.hamcrest.Matchers.*;
+import org.testng.annotations.Test;
+
+public class Demo1_GETRequest_Pra {
+	
+	RestAssured.baseURI ="http://jsonplaceholder.typicode.com";
+	
+	RestAssured.basePath="/posts/1";
+	
+	
+	
+	//="http://jsonplaceholder.typicode.com/posts/1";
+	
+	
+
+}

@@ -1,0 +1,34 @@
+package serialization_DeSerialization;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.testng.annotations.Test;
+
+public class StudentAPIWithSerialization {
+	
+	
+	//create the courses list
+	@Test
+	public void createNewStudentSerialization()
+	{
+	
+	List<String> courseList = new ArrayList<String>();
+	
+	courseList.add("Java");
+	
+	courseList.add("python");
+	
+	Student stu = new Student();
+	
+	stu.setFirstName("Kathir");
+	stu.setLastName("valavan");
+	stu.setEmail("kathir.v@remail.com");
+	stu.setProgramme("Engineering");
+	stu.setCourses(courseList);
+	
+	
+	
+	
+}
+}

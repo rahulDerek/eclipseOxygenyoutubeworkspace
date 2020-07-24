@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;restAssuredTestsPractice.Demo1_GETRequest&apos; to &apos;Demo1_GETRequest_Pra&apos;&#x0D;&#x0A;- Original project: &apos;RestAssuredProjectBDDApproach&apos;&#x0D;&#x0A;- Original element: &apos;restAssuredTestsPractice.Demo1_GETRequest&apos;&#x0D;&#x0A;- Renamed element: &apos;restAssuredTestsPractice.Demo1_GETRequest_Pra&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Demo1_GETRequest&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java&lt;restAssuredTestsPractice{Demo1_GETRequest.java[Demo1_GETRequest" matchStrategy="1" name="Demo1_GETRequest_Pra" qualified="false" references="true" similarDeclarations="false" stamp="1595010424191" textual="false" version="1.0"/>
+</session>

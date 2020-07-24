@@ -1,0 +1,10 @@
+package serialization_DeSerialization;
+
+public class SerializationAndDeserlizationDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

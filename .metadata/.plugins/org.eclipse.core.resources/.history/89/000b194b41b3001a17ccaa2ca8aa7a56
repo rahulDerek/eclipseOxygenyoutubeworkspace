@@ -1,0 +1,36 @@
+package restAssuredTests;
+import org.testng.annotations.Test;
+import io.restassured.RestAssured;
+import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
+import groovy.util.logging.Log;
+import io.restassured.response.Response;
+import static io.restassured.RestAssured.*;
+import static org.hamcrest.Matchers.*;
+
+
+
+public class Demo6_BasicValidations_XML {
+	
+	//http://www.thomas-bayer.com/sqlrest/CUSTOMER/15
+	
+	@Test(priority=0)
+	public void singleContentCheck()
+	{
+		RestAssured.baseURI="http://www.thomas-bayer.com";
+		RestAssured.basePath="/sqlrest/CUSTOMER/15";
+		
+		
+		given()
+		
+		.when()
+			.get()
+		.then()
+			.statusCode(200)
+			.body("CUSTOMER.ID",equalTo("25"))
+			.log().all();
+		
+		
+	}
+
+}

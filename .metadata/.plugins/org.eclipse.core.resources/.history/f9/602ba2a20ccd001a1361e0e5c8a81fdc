@@ -1,0 +1,30 @@
+package serialization_DeSerialization;
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.ObjectInputStream;
+import java.io.Serializable;
+
+public class SerializationAndDeserlizationDemo {
+
+	public static void main(String[] args) throws FileNotFoundException {
+		// TODO Auto-generated method stub
+		Dog d1 = new Dog();
+		
+		FileOutputStream fos = new FileOutputStream("abc.ser");
+		
+		ObjectoutputStream oos = new ObjectOutputStream()
+	}
+
+}
+
+
+
+class Dog implements Serializable
+{
+	
+	
+	int i =10;
+	
+	int j =20;
+}

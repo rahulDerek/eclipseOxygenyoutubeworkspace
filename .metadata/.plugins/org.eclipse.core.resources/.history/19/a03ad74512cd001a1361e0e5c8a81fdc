@@ -1,0 +1,53 @@
+package serialization_DeSerialization;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import org.testng.annotations.Test;
+import io.restassured.RestAssured;
+
+import static io.restassured.RestAssured.*;
+import static org.hamcrest.Matchers.*;
+
+
+public class StudentAPIWithoutSerialization {
+
+	HashMap map =new HashMap();
+	
+	
+	@Test
+	public void createStudent()
+	{
+			
+		/*
+		{
+			"firstName":"Oscar",
+			"lastName":"Barclay",
+			"email":"non.ante.bibendum@risusDonecegestas.edu",
+			"programme":"Mechanical Engineering",
+			"courses":
+					["Machine Element Design","Engineering Analysis I",
+					"Calculus & Linear Algebra I "]}*/
+		
+		RestAssured.baseURI ="http://localhost:8085";
+		
+		RestAssured.basePath="/student/list";
+		
+		map.put("firstName","Raghu");
+		map.put("lastName", "Raman");
+		map.put("email", "raghu.ramam@kmail.com");
+		map.put("programme", "ArtificalIntelligence");
+		
+		List<String> courseList = new ArrayList<String>();
+		
+		courseList.add("Art101");
+		courseList.add("ArI102");
+		map.put("courses", courseList);
+		
+		given()
+		
+		
+		
+		
+	}
+}

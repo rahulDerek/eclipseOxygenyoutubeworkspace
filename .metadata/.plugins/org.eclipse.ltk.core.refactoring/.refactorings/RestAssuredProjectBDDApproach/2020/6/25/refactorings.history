@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;restAssuredTests.Dem04_DELETE_request&apos; to &apos;Demo4_DELETE_request&apos;&#x0D;&#x0A;- Original project: &apos;RestAssuredProjectBDDApproach&apos;&#x0D;&#x0A;- Original element: &apos;restAssuredTests.Dem04_DELETE_request&apos;&#x0D;&#x0A;- Renamed element: &apos;restAssuredTests.Demo4_DELETE_request&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Dem04_DELETE_request&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java&lt;restAssuredTests{Dem04_DELETE_request.java[Dem04_DELETE_request" matchStrategy="1" name="Demo4_DELETE_request" qualified="false" references="true" similarDeclarations="false" stamp="1592546346353" textual="false" version="1.0"/>
+</session>
